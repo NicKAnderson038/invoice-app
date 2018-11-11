@@ -10,10 +10,7 @@ import classes from "./App.module.css";
 
 const styles = {
   headline: {
-    // fontSize: 24,
-    // paddingTop: 16,
-    // marginBottom: 12,
-    // fontWeight: 400,
+    backgroundColor: "white",
     textTransform: "none"
   }
 };

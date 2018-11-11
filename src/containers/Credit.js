@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 
+const styles = {
+  marg: {
+    marginLeft: 20
+  }
+};
 class CreditPage extends Component {
   render() {
     return (
       <div>
-        <h1>Credit Page (place holder)</h1>
+        <h4 style={styles.marg}>Credit Page (place holder)</h4>
       </div>
     );
   }
