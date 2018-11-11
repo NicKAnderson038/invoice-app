@@ -21,6 +21,8 @@ class App extends Component {
       <div className="App">
         <MuiThemeProvider>
           <AppBarExampleIcon />
+        </MuiThemeProvider>
+        <MuiThemeProvider>
           <Tabs className={classes.tabmain}>
             <Tab
               label="Upload"
@@ -41,17 +43,8 @@ class App extends Component {
               containerElement={<Link to="/history" />}
             />
           </Tabs>
-          {/* <header className="App-header">
-          <Link className="link" to="/">
-            Upload
-          </Link>
-          <Link className="link" to="/credit">
-            Credit
-          </Link>
-          <Link className="link" to="/history">
-            Credit
-          </Link>
-          </header> */}
+        </MuiThemeProvider>
+        <MuiThemeProvider>
           <main>
             <Route exact path="/" component={UploadPage} />
             <Route exact path="/credit" component={CreditPage} />

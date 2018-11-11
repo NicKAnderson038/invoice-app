@@ -1,1 +1,4 @@
-export { basicResult } from "../actions/basic";
+export {
+  totalInvoiceResult,
+  toggleTotalInvoiceResult
+} from "../actions/upload";

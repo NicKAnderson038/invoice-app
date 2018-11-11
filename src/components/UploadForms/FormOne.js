@@ -5,6 +5,7 @@ import FileUpload from "../StaticInputs/FileUpload";
 import classes from "./Form.module.css";
 import TextField from "material-ui/TextField";
 import RaisedButton from "material-ui/RaisedButton";
+import TotalInvoiceAmount from "../DynamicInputs/TotalInvoiceAmount";
 import "../../Styles.css";
 
 class FormOne extends Component {
@@ -27,7 +28,7 @@ class FormOne extends Component {
           </div>
           <button className="circle plus" />
           <h4>Total Invoice Amount *</h4>
-          <TextField hintText="$0.00" />
+          <TotalInvoiceAmount />
           <h4>Bill To Company *</h4>
           <TextField hintText="Company Name" />
           <button className="circle plus" />

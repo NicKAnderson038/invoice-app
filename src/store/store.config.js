@@ -2,10 +2,10 @@ import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 
 /* Import Reducers */
-import basic from "./reducers/basic";
+import upload from "./reducers/upload";
 
 const rootReducer = combineReducers({
-  basicResult: basic
+  uploadResult: upload
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
