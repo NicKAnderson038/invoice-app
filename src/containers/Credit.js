@@ -4,7 +4,7 @@ class CreditPage extends Component {
   render() {
     return (
       <div>
-        <h1>Credit Page</h1>
+        <h1>Credit Page (place holder)</h1>
       </div>
     );
   }

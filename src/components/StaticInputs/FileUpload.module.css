@@ -1,0 +1,9 @@
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #d3d3d3 !important;
+  display: -webkit-inline-box;
+  border-radius: 50% !important;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.cardsize {
+  max-width: 600px;
+  margin: 20px 5px 20px 20px;
+}
+
+.wrapper {
+  text-align: -webkit-center;
+}
+.displaytype {
+  display: flex;
+}
