@@ -10,8 +10,10 @@ import {
 import DropDown from "../components/StaticInputs/DropDown";
 import FileUpload from "../components/StaticInputs/FileUpload";
 import Equipment from "../components/StaticInputs/Equipment";
+import WireTransfer from "../components/StaticInputs/WireTransfer";
 import classes from "./Upload.module.css";
 import TextField from "material-ui/TextField";
+import Toggle from "material-ui/Toggle";
 import "../Styles.css";
 
 const styles = {
@@ -20,6 +22,12 @@ const styles = {
   },
   flex: {
     display: "flex"
+  },
+  color: {
+    color: "red"
+  },
+  textWidth: {
+    width: 600
   }
 };
 class UploadPage extends Component {
@@ -64,6 +72,18 @@ class UploadPage extends Component {
             <div className={classes.displaytype}>
               <Equipment myText="Dry" />
               <Equipment myText="Ft 00" />
+            </div>
+          </div>
+          <div className={classes.wrapper}>
+            <div className={classes.displaytype}>
+              <h4 style={styles.textWidth}>
+                Wire Transfer Needed<span style={styles.color}>$25</span>
+              </h4>
+              {/* <WireTransfer /> */}
+              <Toggle
+                thumbSwitchedStyle={{ backgroundColor: "#FF7800" }}
+                trackSwitchedStyle={{ backgroundColor: "#FF7800" }}
+              />
             </div>
           </div>
         </Card>
