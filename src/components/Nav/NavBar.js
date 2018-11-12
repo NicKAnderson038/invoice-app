@@ -9,8 +9,7 @@ const titleLeft = {
 const AppBarExampleIcon = () => (
   <AppBar
     className={classes.navcolor}
-    title={<span style={titleLeft}>Title</span>}
-    // iconClassNameRight="muidocs-icon-navigation-expand-more"
+    // title={<span style={titleLeft}>Title</span>}
   />
 );
 
